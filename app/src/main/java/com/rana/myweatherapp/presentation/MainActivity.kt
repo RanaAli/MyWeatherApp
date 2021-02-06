@@ -50,4 +50,12 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         NavigationUI.setupWithNavController(toolbar, navController, appBarConfiguration)
     }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+    }
 }

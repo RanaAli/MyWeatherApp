@@ -107,6 +107,8 @@ dependencies {
     implementation(Libs.retrofit)
     implementation(Libs.retrofitLogInterceptor)
 
+    implementation("com.google.android.gms:play-services-location:17.1.0")
+
     implementation(Libs.glide)
     kapt(Libs.glideCompiler)
 

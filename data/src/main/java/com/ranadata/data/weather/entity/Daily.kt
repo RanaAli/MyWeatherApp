@@ -6,15 +6,15 @@ import com.google.gson.annotations.SerializedName
 class Daily {
     @SerializedName("dt")
     @Expose
-    var dt: Int? = null
+    var dt: Double? = null
 
     @SerializedName("sunrise")
     @Expose
-    var sunrise: Int? = null
+    var sunrise: Double? = null
 
     @SerializedName("sunset")
     @Expose
-    var sunset: Int? = null
+    var sunset: Double? = null
 
     @SerializedName("temp")
     @Expose
@@ -50,11 +50,11 @@ class Daily {
 
     @SerializedName("clouds")
     @Expose
-    var clouds: Int? = null
+    var clouds: Double? = null
 
     @SerializedName("pop")
     @Expose
-    var pop: Int? = null
+    var pop: Double? = null
 
     @SerializedName("uvi")
     @Expose
